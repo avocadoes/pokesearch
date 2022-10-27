@@ -1,0 +1,18 @@
+.saved {
+    position: absolute;
+    margin: 1.5rem;
+}
+.label {
+    display: flex;
+    flex-grow: 2;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    background: none;
+    margin-bottom: 0.5rem;
+}
+.items {
+    display: flex;
+    flex-direction: column;
+}

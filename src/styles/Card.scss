@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0 0.25rem 0;
+    width: 100%;
+}
+.name {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.save {
+    margin: 0;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0.5rem;
+}
+.img {
+    background-color: white;
+    border-radius: 0.5rem;
+}
+.data {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    background-color: white;
+    flex-grow: 2;
+    border-radius: 0.5rem;
+    margin-left: 0.5rem;
+    padding: 0.25rem 0;
+    * {
+        padding: 0.25rem 0.5rem;
+    }
+    :nth-child(even) {
+        border-left: 0.05rem solid #7A7A7A;
+    }
+}
+.stats {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(6, 1fr);
+    grid-auto-flow: column;
+    gap: 0.5rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+.bar {
+    width: fit-content;
+    color: green;
+    background-color: green;
+}
+.value {
+    color: green;
+    font-weight: 400;
+    text-align: end;
+}

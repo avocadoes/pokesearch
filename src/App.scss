@@ -1,0 +1,64 @@
+.container {
+  background-color: #C6D7EB;
+  width: 100%;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 1rem;
+  width: fit-content;
+  margin: 0 auto;
+}
+.title {
+  margin: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.search {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  background-color: white;
+  margin: 0.5rem 0;
+  width: 100%;
+}
+.input {
+  border: none;
+  padding: 0.5rem;
+  background: none;
+  flex-grow: 2;
+}
+.find {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  border: none;
+  background: none;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+}
+.pokemon {
+  font-weight: 600;
+}
+button {
+  margin: 0.5rem;
+  background-color: white;
+  font-weight: medium;
+  border-radius: 0.25rem;
+  border-color: grey;
+}
+button:hover {
+  background-color: #EBF5F8;
+}
+
+* {
+  font-size: 1rem;
+}
